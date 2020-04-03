@@ -3,9 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Layout</title>
+    <title>Eleven Fifty Mock</title> <!--Indy Nonprofit Coding Bootcamp & Code Academy | Eleven Fifty Academy-->
+    <link rel="stylesheet" type="text/css" href="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Overpass&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8dcab4b4a1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Testing Github Pages</h1>
+    <nav class="topnav">
+        <img src="https://elevenfifty.org/wp-content/uploads/2019/03/mobile-shield.png" style=width:60px;height:60px;float:left;>
+        <a class="active" href="#home" style="width:200px;">Eleven Fifty Academy</a>
+        <a href="#about">COURSES</a>
+        <a href="#about">ADMISSIONS</a>
+        <a href="#about">VETERANS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#about">EMPLOYERS</a>
+        <a id="blue" href="#portfolio" style="background-color:#348db9;width:217px;">SCHEDULE A MEETING</a>
+        <a id="red" href="#contact" style="background-color:#e33e42;width:142px;">APPLY NOW</a>
+        
+    </nav>
+    <div class="header">
+        <header>
+                <video autoplay muted loop id="homeVideo">
+                    <source src="https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/video/EFA-home.webm"
+                    type="video/mp4">
+                </video>
+        
+        </header>
+    </div>
+    <div class="courseInfo">
+        <h1 style="font-family:Overpass, sans-serif; color:#348db9; text-align:center; font-size:42px; font-weight:900;"><b>COURSE INFORMATION</b></h1>
+        <div class="infoCont">
+            <div class="row">
+                <div class="column" id="cardCol">
+                <div class="card">
+                    <h1>Free Intro Courses - Online</h1>
+                    <h4>Want to discover if you'd enjoy a career in coding or cybersecurity? Try one of our FREE intro courses from home.</h4>
+                    <p id=cardBtn>SIGN UP NOW ></p>
+                    </div>
+                </div>
+                <div class="column" id="cardCol">
+                    <div class="card">
+                        <h1>Full-Time 12/14-Week Courses</h1>
+                        <h4>Learn today's most relevant software development or cybersecurity skills to kick off a new career in the tech industry.</h4><br>
+                        <p id=cardBtn>FULL-TIME COURSES ></p>
+                    </div>
+                </div>
+                <div class="column" id="cardCol">
+                    <div class="card">
+                        <h1>Part-Time 24-Week Courses</h1>
+                        <h4>Our part-time coding bootcamps allow students the flexibility to work while attending class virtually and on-site. Make money and change careers at the same time.</h4>
+                        <p id=cardBtn>PART-TIME COURSES ></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br><br><br>
+    <div class="midtext" style="padding-left:20px;">
+        <img src="https://elevenfifty.org/wp-content/uploads/2019/03/shield.png">
+        <h2 style="font-size:30px;">The tech world is rapidly evolving. Our curriculum keeps pace.</h2>
+        <p>Eleven Fifty Academy is a 501(c)(3) nonprofit code academy and was the first coding bootcamp in Indiana. We believe in impacting the lives of students by providing relevant coding skills for the most in-demand jobs in today’s tech ecosystem.</p>
+        <br><br><br>
+    
+    </div>
+    <div class="alumni">
+        <iframe  src="https://www.youtube.com/embed/erOgCJiUMps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>ALUMNI</h2>
+        <p>Every student has a story. Meet a few of our recent grads to hear how our coding bootcamp became a life-changing experience.</p>
+        <btn id="alum">MEET OUR GRADS ></btn>
+    
+    </div>
+    <br><br><br><br>
+    <div class="learnMore">
+        <h3>Our culture is just one of the things that makes Eleven Fifty different. LEARN MORE  ></h3>
+    </div>
+<div class="calconCont">
+    <div class="row" style="background-color:#efefef">    
+        <div class="column" id="calconCol">
+                <h2>Upcoming Courses</h2>
+                    <div class="cal1">
+                        <p>APR</p>
+                        <p>08</p>
+                    </div>
+                    <div class="cal1text">
+                        <p><b>FREE Intro to Cybersecurity</b><br>
+                        April 8 @ 6:30 pm - 8:30 pm<br>
+                        ONLINE / LIVESTREAM</p>
+                    </div>
+                    <div class="cal2">
+                        <p>APR<br>
+                        08</p>
+                    </div>
+                    <div class="cal2text">
+                        <p><b>FREE Intro to Coding</b><br>
+                        April 8 @ 6:30 pm - 8:30 pm<br>
+                        ONLINE / LIVESTREAM</p>
+                    </div>
+                    <div class="cal3">
+                        <p>APR</p>
+                        <p>18</p>
+                    </div>
+                    <div class="cal3text">
+                        <p><b>Web Development: FT</b><br>
+                        April 27 - July 17<br>
+                        Online / Downtown Indy</p>
+                    </div><br>
+                <p id="viewAllBtn">VIEW ALL ></p>
+            </div>
+
+        
+            <div class="column" id="calconCol">
+                <h2>Contact Us</h2>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.8640977248906!2d-86.01059468513621!3d39.96679109080534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8814b476e17f75bd%3A0x29f1c4709dfd8159!2sEleven%20Fifty%20Academy%20-%20Fishers!5e0!3m2!1sen!2sus!4v1585442999645!5m2!1sen!2sus"
+                frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="column" id="calconCol" style="color:#676767;">
+                <p><b>Eleven Fifty Academy</b>
+                <br>Fishers Campus (inside of Launch Fishers)
+                <br>12175 Visionary Way
+                <br>Fishers, IN 46038</p>
+                <p id="link">Map & Directions</p>
+
+                <p><b>Downtown Campus and Headquarters</b>
+                <br>151 W. Ohio St. Suite 170
+                <br>Indianapolis, IN 46204</p>
+                <p id="link">Map & Directions</p>
+
+                <p>Phone: 855-925-1150</p>
+                
+                <h3 style="color:#e33e42;">TALK TO AN ADVISOR ></h3>
+            </div>
+    </div>
+</div>
+        <footer style="padding-left:20px;">
+            <div class="email">
+                <h1>SIGN UP</h1>
+                <h5>Sign up to receive news about upcoming courses, news and events.</h5>
+                <form>
+                    <label for="email">Email*</label><br>
+                    <input type="text-area" id="email" name="email"><br>
+                </form><br>
+                <p id="submitBtn">SUBMIT</p><br><br>
+            </div>
+            
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-youtube"></i><br><br>
+                <div class="footerLinks">
+                <p><b>Join Our Team | FAQs | Contact Us | Log in</b></p>
+                <p><b>Privacy Policy | Terms & Conditions | Cancellation & Refund</b></p>
+                </div>
+                <br>
+                <div class="footerInfo">
+                <p><span class="bold">Downtown Campus and HQ:</span> 151 W. Ohio St. Suite 170, Indianapolis, IN 46204<br>
+                <b>Fishers Campus:</b> 12175 Visionary Way, Fishers, IN 46038<br>
+                <b>Phone:</b> 855-925-1150</p>
+                <br>
+                <p>Eleven Fifty Academy is a 501(c)(3) non-profit technology academy.<br>
+                Support us by becoming an employer, funder, partner or donor.<br>
+                © Eleven Fifty Academy</p>
+                </div>
+        </footer>
+    
+
 </body>
 </html>
